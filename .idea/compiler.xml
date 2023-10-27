@@ -9,5 +9,8 @@
         <module name="kata-java" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="kata-java" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>
