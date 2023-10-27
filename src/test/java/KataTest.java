@@ -3,19 +3,19 @@ import static org.junit.Assert.*;
 
 public class KataTest {
     @Test
-    public void firstTest() {
+    public void anyOneCharacterWordIsAPalindrome() {
         assertTrue(isPalindrom("a"));
     }
 
     @Test
-    public void secondTest(){
+    public void anyTwoDifferentCharactersAreNotAPalindrome(){
         assertFalse(isPalindrom("ab"));
     }
 
-    private boolean isPalindrom(String a) {
-        if(a.length() > 1) {
-            return false;
+    private boolean isPalindrom(String word) {
+        if(word.length() == 1) {
+            return true;
         }
-        return true;
+        return false;
     }
 }
