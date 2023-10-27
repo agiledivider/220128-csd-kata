@@ -13,6 +13,9 @@ public class KataTest {
     }
 
     private boolean isPalindrom(String a) {
+        if(a.length() > 1) {
+            return false;
+        }
         return true;
     }
 }
