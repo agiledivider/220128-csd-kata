@@ -22,6 +22,9 @@ public class KataTest {
         if(word.length() == 1) {
             return true;
         }
+        if(word.charAt(0) == word.charAt(word.length()-1)) {
+            return true;
+        }
         return false;
     }
 }
