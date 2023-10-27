@@ -16,6 +16,10 @@ public class KataTest {
         assertTrue(isPalindrom("aa"));
     }
 
+    @Test
+    public void test3() {
+        assertFalse(isPalindrom("abaa"));
+    }
 
 
     private boolean isPalindrom(String word) {
