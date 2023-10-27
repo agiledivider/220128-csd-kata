@@ -12,7 +12,7 @@ public class KataTest {
         assertFalse(isPalindrom("ab"));
     }
     @Test
-    public void test3(){
+    public void anyTwoEqualCharactersAreAPalindrom(){
         assertTrue(isPalindrom("aa"));
     }
 
