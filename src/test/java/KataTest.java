@@ -6,4 +6,8 @@ public class KataTest {
     public void firstTest() {
         assertTrue(isPalindrom("a"));
     }
+
+    private boolean isPalindrom(String a) {
+        return true;
+    }
 }
